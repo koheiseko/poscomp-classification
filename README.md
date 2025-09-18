@@ -2,7 +2,7 @@
 
 Este projeto visa aplicar o processo de Knowledge Discovery in Databases (KDD) para a mineração de dados no conjunto de dados sobre a prova de POSCOMP.
 
-O objetivo do projeto é prever qual linha de pesquisa o candidato irá ser direcionado a partir das informações da sua prova. 
+O objetivo do projeto é fazer a classificação da linha de pesquisa de cada candidato de acordo com as informações da sua prova. 
 
 Para fazer a classifação foi criado a feature “area” usando o atributo “especialidade” - campo em que o candidato preencheu na hora do cadastro da prova - em que as diversas opções de especialidade foram mapeadas para uma das quatro linhas de pesquisa do [PPGCOMP-UFPA](https://ppgcc.propesp.ufpa.br/index.php/br/programa/areas-de-concentracao-e-linhas-de-pesquisa). Aquelas especialidades que não se encaixaram nas quatro áreas do PPGCOMP-UFPA foram mapeadas para a linha de pesquisa denominada "Demais áreas".
 
